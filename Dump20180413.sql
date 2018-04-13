@@ -68,7 +68,7 @@ CREATE TABLE `routes` (
 
 LOCK TABLES `routes` WRITE;
 /*!40000 ALTER TABLE `routes` DISABLE KEYS */;
-INSERT INTO `routes` VALUES (1,'Ibague-Cali','Ibague','Cali',1,50000,NULL),(4,'Ibague-bogota','Ibague','Bogota',2,5,NULL),(5,'bogota-paipa','Bogota','Paipa',2,10,NULL),(6,'paipa-tunja','Paipa','Tunja',2,8,NULL),(7,'Bogota-tunja','Bogota','Tunja',2,8,NULL),(8,'Pasto-Ecuador','Pasto','Ecuador',1,15,NULL),(9,'Cali-Popayan','Cali','Popayan',1,15,NULL),(10,'Popayan-Ecuador','Popayan','Ecuador',1,10,NULL),(11,'Cali-Ibague','Cali','Ibague',2,50000,NULL),(18,'Medellin-Manizales','Medellin','Manizales',1,60000,NULL),(19,'Manizales-Medellin','Manizales','Medellin',1,60000,NULL);
+/*INSERT INTO `routes` VALUES (1,'Ibague-Cali','Ibague','Cali',1,50000,NULL),(4,'Ibague-bogota','Ibague','Bogota',2,5,NULL),(5,'bogota-paipa','Bogota','Paipa',2,10,NULL),(6,'paipa-tunja','Paipa','Tunja',2,8,NULL),(7,'Bogota-tunja','Bogota','Tunja',2,8,NULL),(8,'Pasto-Ecuador','Pasto','Ecuador',1,15,NULL),(9,'Cali-Popayan','Cali','Popayan',1,15,NULL),(10,'Popayan-Ecuador','Popayan','Ecuador',1,10,NULL),(11,'Cali-Ibague','Cali','Ibague',2,50000,NULL),(18,'Medellin-Manizales','Medellin','Manizales',1,60000,NULL),(19,'Manizales-Medellin','Manizales','Medellin',1,60000,NULL);
 /*!40000 ALTER TABLE `routes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -97,7 +97,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Ericson yohany','hernandez franco','admin','5f4dcc3b5aa765d61d8327deb882cf99',NULL,'eryoher@gmail.com'),(4,'Cuarto','Prueba apellido','cuarto','202cb962ac59075b964b07152d234b70',NULL,'eryoher8@hotmail.com');
+INSERT INTO `users` VALUES (1,'Ericson yohany','hernandez franco','admin','5f4dcc3b5aa765d61d8327deb882cf99',NULL,'eryoher@gmail.com');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
